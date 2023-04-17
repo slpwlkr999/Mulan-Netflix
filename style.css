@@ -67,7 +67,7 @@ html, body {
 
 .texto__principal {
     display: grid;
-    grid-template-columns: 50% 50%;    
+    grid-template-columns: 40%;    
     gap: 15px;
     margin: 3px 15px;
 }
@@ -76,11 +76,28 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;    
-    gap: 25px;
+    gap: 45px;
 }
 
-.retangulo {
-    height: max-content;
-    width: max-content;
-    background-color: linear-gradient(87.5, #000000 25%, #FFFFFF 75%);    
-  }
+.botoes {
+    display: flex;
+    gap: 25px;
+    font-family: 'Roboto';            
+}
+
+.botoes__acao, .botoes__acao2 {
+    color: white;
+    text-decoration: none;    
+    padding: 9px;
+    border-radius: 7px;
+}
+
+.botoes__acao {
+    border: solid none .25px;
+    background-color: red;
+}
+
+.botoes__acao2 {
+    border: solid white .25px;
+    background-color: transparent;
+}
