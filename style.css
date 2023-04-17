@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;   
+    background-color: black;
+    color: beige;
+    background-image: linear-gradient(to left, transparent 0%, #000 70%), url(/img/mulan.webp);
+    background-repeat:no-repeat;    
+    background-position-x: right;    
+}
+
+.navegacao__netflix {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3px 15px;
+}
+
+.navegacao__menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navegacao__texto {
+    color: beige;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Roboto';    
+}
+
+.barra__busca {
+    background-color: transparent;
+    border: 0.25px solid white;
+    padding: 0.5em 1.5em;
+    border-radius: 5.5px;
+}
+
+.titulo__mulan {
+    width: 20%;
+}
+
+.info__list {
+    display: flex;    
+    align-items: center;
+    gap: 20px;
+    font-family: 'Roboto';
+}
+
+.info__text {   
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.classficacao {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sinopse {
+    font-family: 'Roboto';
+    font-size: 16px;        
+}
+
+.texto__principal {
+    display: grid;
+    grid-template-columns: 50% 50%;    
+    gap: 15px;
+    margin: 3px 15px;
+}
+
+.info__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    gap: 25px;
+}
+
+.retangulo {
+    height: max-content;
+    width: max-content;
+    background-color: linear-gradient(87.5, #000000 25%, #FFFFFF 75%);    
+  }
